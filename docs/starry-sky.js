@@ -31,7 +31,7 @@
         if (document.readyState === 'complete') {
             this.draw();
         } else {
-            document.addEventListener('DOMContentLoaded', () => this.draw());
+            window.addEventListener('DOMContentLoaded', () => this.draw());
         }
     }
 
