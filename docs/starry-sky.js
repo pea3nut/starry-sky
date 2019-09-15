@@ -67,7 +67,7 @@
         const styleElement = document.createElement('style');
         styleElement.innerText = `
             .${this.starClass} {
-                animation-timing-function: ease(in-out-circ);
+                animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
                 animation-direction: alternate;
                 animation-iteration-count: infinite;
                 background: #fff;
