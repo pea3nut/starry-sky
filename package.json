@@ -1,0 +1,28 @@
+{
+  "name": "starry-sky",
+  "version": "1.0.0",
+  "description": "Draw a starry sky for you~",
+  "main": "starry-sky.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pea3nut/starry-sky.git"
+  },
+  "keywords": [
+    "star",
+    "starry",
+    "night",
+    "sky"
+  ],
+  "author": "pea3nut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pea3nut/starry-sky/issues"
+  },
+  "homepage": "https://github.com/pea3nut/starry-sky#readme"
+}
