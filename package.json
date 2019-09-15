@@ -2,7 +2,7 @@
   "name": "starry-sky",
   "version": "1.0.0",
   "description": "Draw a starry sky for you~",
-  "main": "starry-sky.js",
+  "main": "docs/starry-sky.js",
   "directories": {
     "doc": "docs"
   },
