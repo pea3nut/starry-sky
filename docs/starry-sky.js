@@ -42,6 +42,11 @@
             return parseInt(style.width) * parseInt(style.height);
         })();
 
+        if (!this.elArea) {
+            window.addEventListener('load', () => this.draw());
+            return;
+        }
+
         this.starDomList = new Array(this.starNumber)
             .fill(null)
             .map(() => this.createStarElement())
@@ -60,7 +65,6 @@
     }
     createStyleElement(){
         const styleElement = document.createElement('style');
-        // styleElement.scoped = "scoped";
         styleElement.innerText = `
             .${this.starClass} {
                 animation-timing-function: ease(in-out-circ);
